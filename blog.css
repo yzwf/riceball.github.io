@@ -1,0 +1,304 @@
+body {
+    background-color: rgba(255, 209, 222, 0.242);
+    background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 20.5C30 20.5 25 15 20 15C15 15 12.5 17.5 12.5 20C12.5 22.5 15 25 20 30C25 35 30 40 30 40C30 40 35 35 40 30C45 25 47.5 22.5 47.5 20C47.5 17.5 45 15 40 15C35 15 30 20.5 30 20.5Z' fill='%23ff9eb5' fill-opacity='0.08' fill-rule='evenodd'/%3E%3C/svg%3E");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* #all {
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    height: 100000px;
+} */
+
+/* 标题div */
+#title{
+    position: static;
+    width:1100px;
+    height:100px;
+    margin:auto;
+    background-color:rgba(255, 113, 177, 0.479);
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p1{
+    text-align:center;
+    line-height:100px;
+    color:rgb(0, 0, 0);
+    font-size:50px;
+    font-family:字体家AI造字微染;
+}
+p1 span{
+    color:black;
+    font-family:宋体;
+}
+
+/* 标题下分割线 */
+#titleBottom{
+    position:static;
+    width:1100px;
+    height:50px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 照片图组 */
+#picture1{
+    width: 1200px;
+    height:254px;
+    border:solid;
+    border-color:rgb(255, 115, 148);
+}
+
+/* 自我介绍及跳转小红书主页链接 */
+#intro{
+    position: static;
+    width:1100px;
+    height:320px;
+    margin:auto;
+    background-color:rgb(255, 255, 255);
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(145deg, #ffffff, #f8f8f8);
+}
+p2{
+    text-align: center;
+    line-height:2;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    font-family:华文中宋;
+}
+
+/* 往期回顾·我的Lolita穿搭记录 */
+#dressReview{
+    position: static;
+    width:600px;
+    height:50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color:rgb(255, 238, 152);
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p5{
+    text-align:center;
+    line-height:80px;
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    font-family:字体家AI造字微染;
+}
+
+/* 2025年5月·宝石蔷薇 & 2025年5月·芙拉小姐，剩下直接套用*/
+#Show1{
+    position: static;
+    width:1500px;
+    height:40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Show1-class{
+    position: static;
+    width:450px;
+    height:40px;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.479);
+    border:dashed;
+    border-radius:10px;
+    border-color:rgb(245, 212, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p4{
+    text-align:center;
+    line-height:80px;
+    color:rgb(0, 0, 0);
+    font-size:22px;
+    font-family:华文中宋;
+}
+#Show2{
+    position: static;
+    width:1475px;
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Show2-class{
+    position: relative;
+    width:600px;
+    height:auto;
+    margin:auto;
+    background-color:rgb(255, 255, 255);
+    border-radius:12px;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+p6{
+    top:50px;
+    display:block;
+    text-align: center;
+    line-height:2;
+    color:rgb(0, 0, 0);
+    font-size:22px;
+    font-family:华文中宋;
+    width:100%;
+}
+#picture3{
+    width: 100%;
+    height:auto; 
+    text-align:center;
+    margin-bottom: 40px;
+}
+#picture3 img{
+    width: 42%;
+    margin: 0; 
+}
+
+/* 近期上新·个人喜爱裙装盘点 */
+#dressIntro{
+    position: static;
+    width:600px;
+    height:50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color:rgba(255, 113, 177, 0.479);
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p3{
+    margin:auto;
+    text-align:center;
+    line-height:50px;
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    font-family:字体家AI造字微染;
+}
+
+/* 梦孚子Lolita原创设计·宝石公主，剩下直接套用 */
+#DimondPrincess{
+    position: static;
+    width:450px;
+    height:40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color:rgba(255, 255, 255, 0.479);
+    border:solid;
+    border-radius:10px;
+    border-color:rgb(254, 16, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p4{
+    text-align:center;
+    line-height:80px;
+    color:rgb(0, 0, 0);
+    font-size:25px;
+    font-family:华文中宋;
+}
+
+#DimondPrincessIntro{
+    position: relative;
+    width:1100px;
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(255, 255, 255);
+    border-radius:12px;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    background: 
+        radial-gradient(ellipse at left, rgba(255,182,193,0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at right, rgba(173,216,230,0.1) 0%, transparent 50%),
+        linear-gradient(145deg, #ffffff, #f8f8f8);
+    display: block;
+    padding:20px 60px;
+    box-sizing: border-box;
+}
+#DimondPrincessIntro > div:last-child {
+    position: relative;
+}
+#DimondPrincessIntro > div:last-child::before,
+#DimondPrincessIntro > div:last-child::after {
+    content: "❀";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 110px; /* 放大花朵 */
+    color: #ffb6c1;
+    opacity: 0.6;
+}
+#DimondPrincessIntro > div:last-child::before {
+    left: -45px;
+}
+#DimondPrincessIntro > div:last-child::after {
+    right: -45px;
+}
+#picture2{
+    width: 100%;
+    height: auto; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+#picture2 img{
+    width: 30%;
+    margin: 0 1.5%; 
+}
+p4{
+    display:block;
+    text-align: center;
+    line-height:2;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    font-family:华文中宋;
+    width:100%;
+}
+
+.back-to-top{
+    position: static;
+    width:600px;
+    height:60px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color:rgba(255, 255, 255, 0.479);
+    border:dashed;
+    border-radius:10px;
+    border-color:rgb(254, 16, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p8{
+    text-align:center;
+    line-height:80px;
+    color:rgb(0, 0, 0);
+    font-size:25px;
+    font-family:华文中宋;
+}
